@@ -1,0 +1,81 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font family and size */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #fff;
+
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+/* Style the main section */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+main p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+main a {
+    color: blue;
+  text-decoration: none;
+}
+
+.main .button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.main .button:hover {
+  background-color: #222;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
